@@ -1,7 +1,6 @@
-# One-to-One Video Call using JavaScript and Airtel IQ for Web 
+# One-to-One Video Call using JavaScript and Airtel IQ Toolkit for Web 
 
  
-
 This client application in Javascript demonstrates how you can implement video calling capabilities in your Web applications using Airtel IQ Toolkit. The application runs on the web browser and utilizes Airtel IQ Web SDK to conduct an RTC session. The sequential tasks performed by the client application to conduct an RTC session are as given below: 
 
 * Fetch token from the application server. 
@@ -15,8 +14,6 @@ This client application in Javascript demonstrates how you can implement video c
 * Observe and handle session-related events. 
 
 The sample application demonstrates the following advance features along with basic video call: 
-
-* Session Recording 
 
 * Chat 
 
@@ -45,16 +42,18 @@ Follow the steps given below to generate API Credentials required to access Airt
 
 * Get the App ID and App Key generated against the Project. 
 
+
 ### 1.1.2 Requirement 
 
-* [Check your browser compatibility with Airtel IQ.](https://videoiq.airtel.in/developer/video/browser-compatibility-of-airteliq-video/) 
+* [Check your browser compatibility with Airtel IQ.](https://www.videoiq.airtel.in/developer/video/browser-compatibility-of-airtel-iq-video/) 
 
-* [Download latest copy of Web SDK (EnxRtc.js)](https://videoiq.airtel.in/wp-content/uploads/EnxRtc.js.v1.0.0.zip?ver=1.0.0) and replace client/js/EnxRtc.js 
+* [Download latest copy of Web SDK (EnxRtc.js)](https://www.videoiq.airtel.in/developer/wp-content/uploads/EnxRtc.js.v1.0.0.zip) and replace client/js/EnxRtc.js 
 
 
 ### 1.1.3 Clone project repository
  
 * Clone this repository ``` git clone https://github.com/airteliq/Airtel-IQ-One-to-One-Video-Chat-Sample-Web-Application-Javascript-Client.git```
+
 
 ### 1.1.4 Sample application server 
 
@@ -65,17 +64,29 @@ Use any of the Repositories listed below to setup your application server:
 
 * [Nodejs](https://github.com/airteliq/Airtel-IQ-One-to-One-Video-Chat-Sample-Web-Application-NodeJs-Server) 
 
+* [C#](https://github.com/airtel/Airtel-IQ-One-to-One-Video-Chat-Sample-Web-Application-C-Sharp-Server)
 
 To directly try the sample code without having to configure an application server, you can also use the Airtel IQ test server as explained in section 2. However, it is recommended to configure your own application server to build a video calling web app. 
 
 
 ### 1.1.5 Merge the client and server
 
-Once we have cloned or downloaded the client repository within the server repository, use the following commands
-```
-mv one-to-one-Video-Chat-Sample-Web-Application-Javascript-Client public
-```
-***<ins>Now follow the instructions given in the server repository<ins>***
+* For Nodejs server follow the steps below-
+
+   Once we have cloned or downloaded the client repository within the server repository, use the following commands
+   ```
+   mv Airtel-IQ-One-to-One-Video-Chat-Sample-Web-Application-Javascript-Client public
+   ```
+   ***<ins>Now follow the instructions given in the server repository<ins>***
+
+ * For C# server follow the steps below-
+ 
+   Once we have cloned or downloaded the client repository within the server repository, use the following commands
+   ```
+   mv Airtel-IQ-One-to-One-Video-Chat-Sample-Web-Application-Javascript-Client sample-csharp/wwwroot
+   ```
+   ***<ins>Now follow the instructions given in the server repository<ins>***
+ 
  
 ## 2. Pre-configured Test Server 
 
@@ -89,7 +100,7 @@ As the Airtel IQ test server has been configured for demonstration purpose only,
 
 * Host a multiparty call with less than 3 participants. 
 
-Refer to the [Demo App Server](https://videoiq.airtel.in/developer/video/sample-code/#demo-app-server) for more information.   
+Refer to the [Demo App Server](https://www.videoiq.airtel.in/developer/video/sample-code/#demo-app-server) for more information.   
 
 Once you have successfully tested your application on the test server, you can set up your application server as explained in section 1.1.4 above. 
 
@@ -129,18 +140,15 @@ In addition to the features demonstrated in this sample program, the SDK has man
 
 And many more such exciting features. 
 
-[Read Web Toolkit](https://videoiq.airtel.in/developer/video-api/client-api/web-toolkit/
-) Documentation for more details.  
+[Read Web Toolkit](https://www.videoiq.airtel.in/developer/video-api/client-api/web-toolkit/) Documentation for more details.  
 
-[Download Web Toolkit](https://videoiq.airtel.in/wp-content/uploads/EnxRtc.js.v1.9.3.zip?ver=1.9.3
-) to get the latest version of Web SDK. 
+[Download Web Toolkit](https://www.videoiq.airtel.in/developer/wp-content/uploads/EnxRtc.js.v1.0.0.zip) to get the latest version of Web SDK. 
 
  
-
 # 4. Support 
 
 Airtel IQ provides a library of Documentations, How-to Guides, and Sample Codes to help software developers, interested in embedding RTC in their applications. 
 
-Refer to the [Complete Developer’s Guide](https://videoiq.airtel.in/) for more details. 
+Refer to the [Complete Developer’s Guide]https://www.videoiq.airtel.in/developer/video-api/client-api/) for more details. 
 
 You may also write to us for additional support at [support@videoiq.airtel.in](). 
